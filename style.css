@@ -38,7 +38,6 @@ body {
     height: 100%;
   }
 
-
 .hero {
     position: relative;
     min-height: 100vh;
@@ -229,7 +228,7 @@ body {
 
 .story,
 .gallery {
-    background-image: url(img/1500px\ x\ 1700px\ Rose\ Field\ 40%.jpg.png);
+    background-image: url(img/flower border puspa 400px);
     display: absolute;
     padding-top: 2rem;
     padding-bottom: 40rem;
