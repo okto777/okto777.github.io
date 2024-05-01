@@ -442,28 +442,8 @@
             <div class="row justify-content-center mt-5">
                 <div class="col-md-6">
 
-                    <?php
-                    echo "<form method='POST' action='".setComments()."'>
-                        <input type='hidden' name='uid' value='Anonymous'>
-                        <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-                        <textarea name='message'></textarea><br>
-                        <button type='submit' name='submit'>Comment</button>
-                    </form>";
-                    ?>
-
-                    <form action="submit_comment.php" method="post">
-                        <input type="text" name="name" placeholder="Your Name" required><br>
-                        <input type="email" name="email" placeholder="Your Email"><br>
-                        <textarea name="comment" placeholder="Your Comment" required></textarea><br>
-                        <input type="submit" value="Submit">
-                    </form>
-
-                    <?php
-                    // Example: reading comments from a file and displaying them
-                    $comments = file_get_contents('comments.txt');
-                    echo nl2br($comments); // Use nl2br to preserve line breaks
-                    ?>
-
+                    <script defer src="https://cdn.commento.io/js/commento.js"></script>
+                    <div id="commento"></div>
 
                 </div>
             </div>
