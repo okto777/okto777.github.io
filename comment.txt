@@ -1,5 +1,0 @@
-<?php
-// Example: reading comments from a file and displaying them
-$comments = file_get_contents('comments.txt');
-echo nl2br($comments); // Use nl2br to preserve line breaks
-?>
