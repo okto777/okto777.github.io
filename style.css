@@ -295,7 +295,7 @@ body {
 .gifts p {
     font-size: 1.5rem;
     font-weight: 500;
-    color: goldenrod;
+    color: rgb(255, 208, 0);
     text-shadow: var(--shadow);
 }
 
