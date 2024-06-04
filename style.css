@@ -1054,7 +1054,17 @@ footer li {
     html {
         font-size: 60%;
     }
-    
+
+    .offcanvas-body {
+    font-family: 'sacramento', cursive;
+    width: auto;
+    padding-top: 20px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: rgb(247, 49, 181);
+    z-index: 2;
+    }
+        
     .simply-countdown>.simply-section{
         padding: 35px;
         margin: 1px;
